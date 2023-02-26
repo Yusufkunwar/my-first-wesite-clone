@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Our Blog</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:ital,wght@0,400;0,600;0,700;1,300&display=swap"
+        rel="stylesheet">
+    <script src="https://kit.fontawesome.com/c7068ed289.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <section class="sub-header">
+        <div>
+            <nav>
+                <a href="index.html"><img src="/images/logo.png" alt="error"></a>
+                <div class="nav-links" id="navLinks">
+                    <i class="fa-solid fa-xmark" onclick="hideManu()"></i>
+                    <ul>
+                        <li><a href="index.html" >HOME</a></li>
+                        <li><a href="about.html" >ABOUT</a></li>
+                        <li><a href="Course.html" >COURSE</a></li>
+                        <li><a href="Blog.html">BLOG</a></li>
+                        <li><a href="# " >CONTACT</a></li>
+                    </ul>
+                </div>
+                <i class="fa-solid fa-bars" onclick="showManu()"></i>
+            </nav>
+        </div>
+        <div>
+            <h1>
+                Contact Us
+            </h1>
+        </div>
+    </section>
+
+
+    <!-- ----------------location---------- -->
+
+
+    <section class="location">
+        <iframe
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d7216.101252893458!2d51.52465094772546!3d25.26888233739524!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3e45c55bc6969fcb%3A0x3ef976a61ca4ac85!2sAl%20Mansoura%2C%20Doha!5e0!3m2!1sen!2sqa!4v1677307150770!5m2!1sen!2sqa"
+            width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+            referrerpolicy="no-referrer-when-downgrade"></iframe>
+
+    </section>
+        <!-- -------------contact page---------------------- -->
+    <section class="contact-us">
+        <div class="row">
+            <div class="contact-col">
+                <div>
+                    <a href="m" target="_blank"><i class=" fa fa-home"></i></a>
+                    <span>
+                        <h5>XYZ Road, ABC Builing</h5>
+                        <p>Al Mansura, Doha Qata</p>
+                    </span>
+                </div>
+                <div>
+                    <a href="" target="_blank"><i class=" fa fa-phone"></i></a>
+                    <span>
+                        <h5>+1 0123456789</h5>
+                        <p>Monday to Saturday, 10AM to 6PM</p>
+                    </span>
+                </div>
+                <div>
+                    <a href="" target="_blank"><i class=" fa fa-envelope-o"></i></a>
+                    <span>
+                        <h5>mdy00134@gmail.com</h5>
+                        <p>Email us your query</p>
+                    </span>
+                </div>
+            </div>
+
+            <div class="contact-col">
+
+                <form action="">
+                    <input type="text" placeholder="Enter your name" required>
+                    <input type="email" placeholder="Enter your email" required>
+                    <input type="text" placeholder="Enter your subject" required>
+                    <textarea rows="8" placeholder="massage" required></textarea>
+                    <button type="submit" class=" hero-btn red-btn">Send Massage</button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- ---------Fotter------------ -->
+    <section class="footer">
+        <h3>About Us</h3>
+        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Suscipit voluptate deleniti eius alias. <br>Nihil,
+            dolorem ea nemo facere quisquam fugit! Inventore veritatis quis ullam! Inventore eius maiores mollitia
+            corrupti aliquid sint quas aut at!</p>
+
+        <div class="icons">
+            <a href="https://facebook.com" target="_blank"><i class=" fa fa-facebook"></i></a>
+            <a href="https://twitter.com" target="_blank"><i class=" fa fa-twitter"></i></a>
+            <a href="https://instagram.com" target="_blank"><i class=" fa fa-instagram"></i></a>
+            <a href="https://linkedin.com" target="_blank"><i class=" fa fa-linkedin"></i></a>
+        </div>
+        <p>Made with <i class="fa fa-heart-o"></i> By Easy Tutorials</p>
+    </section>
+
+    <!-- ----------------Jacascript For Toggle Manu--------------- -->
+    <script>
+        var navLinks = document.getElementById("navLinks");
+
+        function showManu() {
+            navLinks.style.right = "0"
+        }
+        function hideManu() {
+            navLinks.style.right = "-200px"
+        }
+
+    </script>
+
+</body>
+
+</html>

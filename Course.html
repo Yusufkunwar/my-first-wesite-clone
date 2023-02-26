@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Our Courses</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:ital,wght@0,400;0,600;0,700;1,300&display=swap"
+        rel="stylesheet">
+    <script src="https://kit.fontawesome.com/c7068ed289.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <section class="sub-header">
+        <div>
+            <nav>
+                <a href="index.html"><img src="/images/logo.png" alt="error"></a>
+                <div class="nav-links" id="navLinks">
+                    <i class="fa-solid fa-xmark" onclick="hideManu()"></i>
+                    <ul>
+                        <li><a href="index.html" >HOME</a></li>
+                        <li><a href="about.html" >ABOUT</a></li>
+                        <li><a href="#" >COURSE</a></li>
+                        <li><a href="Blog.html" >BLOG</a></li>
+                        <li><a href="contact.html" >CONTACT</a></li>
+                    </ul>
+                </div>
+                <i class="fa-solid fa-bars" onclick="showManu()"></i>
+            </nav>
+        </div>
+        <div>
+            <h1>
+                Our Courses
+            </h1>
+        </div>
+    </section>
+
+    <!-- ---------Courses------------ -->
+
+
+    <section class="course">
+        <h1 class=for-h1>Courses We Offer</h1>
+        <p class="for-p">Lorem ipsum dolor sit amet consectetur adipisicing elit. Veritatis, ad.</p>
+
+        <div class="row">
+            <div class="course-col">
+                <h3>Intermediat</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Distinctio totam sapiente quia. Laborum ea
+                    beatae repudiandae assumenda tempore illo temporibus quasi, architecto iusto. Nulla, excepturi. Iste
+                    atque soluta velit consectetur adipisci iure eligendi eaque!</p>
+            </div>
+            <div class="course-col">
+                <h3>Degree</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Distinctio totam sapiente quia. Laborum ea
+                    beatae repudiandae assumenda tempore illo temporibus quasi, architecto iusto. Nulla, excepturi. Iste
+                    atque soluta velit consectetur adipisci iure eligendi eaque!</p>
+            </div>
+            <div class="course-col">
+                <h3>Post Graduaton</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Distinctio totam sapiente quia. Laborum ea
+                    beatae repudiandae assumenda tempore illo temporibus quasi, architecto iusto. Nulla, excepturi. Iste
+                    atque soluta velit consectetur adipisci iure eligendi eaque!</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- ---------Facilities-------------- -->
+
+    <section class="facilities">
+        <div>
+            <h1 class="for-h1">Our Facilities</h1>
+            <p class="for-p">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dolores, optio.</p>
+
+            <div class="row">
+                <div class="facilities-col">
+                    <img src="images/library.png" alt="">
+                    <h3>World Class Libarary</h3>
+                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Exercitationem fuga sint cumque enim
+                        animi possimus explicabo reprehenderit? Saepe voluptas, explicabo ratione laboriosam quo sit
+                        iste, quod reprehenderit voluptatem dolorum aliquam, est temporibus rem. Hic?</p>
+                </div>
+                <div class="facilities-col">
+                    <img src="images/basketball.png" alt="">
+                    <h3>Largest PlayGround</h3>
+                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Exercitationem fuga sint cumque enim
+                        animi possimus explicabo reprehenderit? Saepe voluptas, explicabo ratione laboriosam quo sit
+                        iste, quod reprehenderit voluptatem dolorum aliquam, est temporibus rem. Hic?</p>
+                </div>
+                <div class="facilities-col">
+                    <img src="images/cafeteria.png" alt="">
+                    <h3>Tasty and Healthy Food</h3>
+                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Exercitationem fuga sint cumque enim
+                        animi possimus explicabo reprehenderit? Saepe voluptas, explicabo ratione laboriosam quo sit
+                        iste, quod reprehenderit voluptatem dolorum aliquam, est temporibus rem. Hic?</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+
+
+
+
+
+    <!-- ---------Fotter------------ -->
+    <section class="footer">
+        <h3>About Us</h3>
+        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Suscipit voluptate deleniti eius alias. <br>Nihil, dolorem ea nemo facere quisquam fugit!  Inventore veritatis quis ullam! Inventore eius maiores mollitia corrupti aliquid sint quas aut at!</p>
+
+        <div class="icons">
+            <a href="https://facebook.com" target="_blank"><i class=" fa fa-facebook"></i></a>
+            <a href="https://twitter.com" target="_blank"><i class=" fa fa-twitter"></i></a>
+            <a href="https://instagram.com" target="_blank"><i class=" fa fa-instagram"></i></a>
+            <a href="https://linkedin.com" target="_blank"><i class=" fa fa-linkedin"></i></a>
+        </div>
+        <p>Made with   <i class="fa fa-heart-o"></i> By Easy Tutorials</p>
+    </section>
+
+    <!-- ----------------Jacascript For Toggle Manu--------------- -->
+    <script>
+        var navLinks = document.getElementById("navLinks");
+
+        function showManu() {
+            navLinks.style.right = "0"
+        }
+        function hideManu() {
+            navLinks.style.right = "-200px"
+        }
+
+    </script>
+
+</body>
+
+</html>
